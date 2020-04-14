@@ -1,4 +1,4 @@
-p:{code:count,code2,count2},ip2:{code:count}}
+#create a dict of dict,{ip:{code:count,code2,count2},ip2:{code:count}}
 type codeDict: table[count] of count;
 type ipDict: table[addr] of codeDict;
 #储存url
